@@ -1,0 +1,27 @@
+body{
+    padding:0 100px 100px;
+    background-color: blue !important;
+  }
+  
+  h1#header{
+    text-align: center;
+    padding:50px;
+    font-size: 62px;
+    font-family: "Pacifico";
+    @include text-shadow(0 2px 2px darken($bg,40%));
+    background-color: black;
+  }
+  
+  .article-wrapper{
+    @include transition(width .4s);
+  }
+  
+  article{
+    position:relative;
+    padding-left:$size + 30;
+    padding-right: $size/2;
+    height: $size;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    @include border-radius($size);
+    cursor:pointer;
