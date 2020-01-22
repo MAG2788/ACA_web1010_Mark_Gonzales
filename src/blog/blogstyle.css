@@ -1,25 +1,35 @@
 .main-container {
-    border: 1px solid red;
+    border: 10px solid red;
     height: 100%;
+    width: 100%;
+    padding: 0;
 
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: black;
 }
 header {
-    border: 8px solid blue;
+    border: 10px solid blue;
     height: 100px;
-    background-color: white;
-    
-   
+    text-align: center;
+    background-position: top;
+      padding: 30px;
+  font-size: 40px;
+  text-align: center;
 }
 nav {
-    border: 8px solid green;
+    border: 10px solid green;
     height: 100px;
-    background-color: silver;
+    background-position: center;
+     display: inline;
+
 }
 main {
     height: 100%;
-    background-color: skyblue;
 }
-section {
-    height: 30%;
-    background-color: white;
+
+.tcolumn {
+    float: left;
+    width: 75%;
 }
